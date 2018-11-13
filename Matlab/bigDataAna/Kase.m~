@@ -1,0 +1,13 @@
+%分别处理不同类别的平均年龄
+cate1="/Users/tianyu/PycharmProjects/BigDataAna/data/cate1.csv";
+cate2="/Users/tianyu/PycharmProjects/BigDataAna/data/cate2.csv";
+cate3="/Users/tianyu/PycharmProjects/BigDataAna/data/cate3.csv";
+cate4="/Users/tianyu/PycharmProjects/BigDataAna/data/cate4.csv";
+cate5="/Users/tianyu/PycharmProjects/BigDataAna/data/cate5.csv";
+
+%检测置信度在0.05下的各个类别年龄是否满足正态分布
+h1=kstest(cate1)
+h2=kstest(cate2)
+h3=kstest(cate3)
+h4=kstest(cate4)
+h5=kstest(cate5)

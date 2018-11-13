@@ -1,0 +1,6 @@
+clear
+%分别处理不同类别的平均年龄
+cate1=load("/Users/tianyu/PycharmProjects/BigDataAna/data/cate1.csv");
+cate2=load("/Users/tianyu/PycharmProjects/BigDataAna/data/cate2.csv");
+
+[p,tbl,stats]=a
